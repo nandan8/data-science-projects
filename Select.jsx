@@ -7,7 +7,7 @@ const Select = props => {
       <select id={props.name} name={props.name} value={props.value} onChange={props.handleChange}
               className="form-control"   >
         <option value="" disabled> {props.placeholder} </option>
-        { /* <option selected value="FENICSFX-ny4">FenicsfxFX-ny4</option> */ }
+        {  }
         {props.options.map(option => {
           return (
             <option key={option} value={option} label={option}>
